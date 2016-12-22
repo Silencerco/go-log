@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,13 +21,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mediaFORGE/gol"
-	"github.com/mediaFORGE/gol/formatters"
+	"github.com/steenzout/go-log"
+	"github.com/steenzout/go-log/formatters"
 
-	field_severity "github.com/mediaFORGE/gol/fields/severity"
-	filter_severity "github.com/mediaFORGE/gol/filters/severity"
-	logger_simple "github.com/mediaFORGE/gol/loggers/simple"
-	manager_simple "github.com/mediaFORGE/gol/managers/simple"
+	field_severity "github.com/steenzout/go-log/fields/severity"
+	filter_severity "github.com/steenzout/go-log/filters/severity"
+	logger_simple "github.com/steenzout/go-log/loggers/simple"
+	manager_simple "github.com/steenzout/go-log/managers/simple"
 )
 
 // Log holds the application LogManager instance.

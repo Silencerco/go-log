@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,9 +20,9 @@ package main
 import (
 	"log/syslog"
 
-	"github.com/mediaFORGE/gol"
-	"github.com/mediaFORGE/gol/formatters"
-	mfsyslog "github.com/mediaFORGE/gol/loggers/syslog"
+	"github.com/steenzout/go-log"
+	"github.com/steenzout/go-log/formatters"
+	mfsyslog "github.com/steenzout/go-log/loggers/syslog"
 )
 
 var log gol.Logger

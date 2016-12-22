@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,7 +20,7 @@ package timestamp_test
 import (
 	"time"
 
-	"github.com/mediaFORGE/gol/fields/timestamp"
+	"github.com/steenzout/go-log/fields/timestamp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

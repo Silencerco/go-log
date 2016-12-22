@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,9 +18,9 @@
 package severity_test
 
 import (
-	"github.com/mediaFORGE/gol"
-	field "github.com/mediaFORGE/gol/fields/severity"
-	filter "github.com/mediaFORGE/gol/filters/severity"
+	"github.com/steenzout/go-log"
+	field "github.com/steenzout/go-log/fields/severity"
+	filter "github.com/steenzout/go-log/filters/severity"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

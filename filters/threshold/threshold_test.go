@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,9 +20,9 @@ package threshold_test
 import (
 	"time"
 
-	"github.com/mediaFORGE/gol"
-	fields "github.com/mediaFORGE/gol/fields"
-	filter "github.com/mediaFORGE/gol/filters/threshold"
+	"github.com/steenzout/go-log"
+	fields "github.com/steenzout/go-log/fields"
+	filter "github.com/steenzout/go-log/filters/threshold"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,9 +21,9 @@ import (
 	"fmt"
 	"log/syslog"
 
-	"github.com/mediaFORGE/gol"
-	"github.com/mediaFORGE/gol/fields/severity"
-	"github.com/mediaFORGE/gol/loggers/simple"
+	"github.com/steenzout/go-log"
+	"github.com/steenzout/go-log/fields/severity"
+	"github.com/steenzout/go-log/loggers/simple"
 )
 
 // Logger gol's syslog logger.

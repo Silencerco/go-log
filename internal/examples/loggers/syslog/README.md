@@ -1,6 +1,6 @@
 # Syslog
 
-[![License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://raw.githubusercontent.com/mediaFORGE/gol/master/LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://raw.githubusercontent.com/steenzout/go-log/master/LICENSE)
 
 This example demonstrates a case where
 you have a logger that writes to syslog.

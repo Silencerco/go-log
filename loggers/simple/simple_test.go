@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,9 +20,9 @@ package simple_test
 import (
 	"fmt"
 
-	"github.com/mediaFORGE/gol"
-	"github.com/mediaFORGE/gol/internal/mock"
-	logger_simple "github.com/mediaFORGE/gol/loggers/simple"
+	"github.com/steenzout/go-log"
+	"github.com/steenzout/go-log/internal/mock"
+	logger_simple "github.com/steenzout/go-log/loggers/simple"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

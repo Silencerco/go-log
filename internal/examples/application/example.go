@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,7 +20,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/mediaFORGE/gol"
+	"github.com/steenzout/go-log"
 )
 
 func main() {

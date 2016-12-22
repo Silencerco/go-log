@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,11 +24,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mediaFORGE/gol"
-	"github.com/mediaFORGE/gol/fields/severity"
-	"github.com/mediaFORGE/gol/formatters"
-	golmock "github.com/mediaFORGE/gol/internal/mock"
-	golsys "github.com/mediaFORGE/gol/loggers/syslog"
+	"github.com/steenzout/go-log"
+	"github.com/steenzout/go-log/fields/severity"
+	"github.com/steenzout/go-log/formatters"
+	golmock "github.com/steenzout/go-log/internal/mock"
+	golsys "github.com/steenzout/go-log/loggers/syslog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
@@ -72,7 +73,7 @@ func (m *MockUDPServer) Run(ch chan bool, readch chan bool, msgchan chan string)
 	}
 }
 
-// LoggerTestSuite test suite for the github.com/mediaFORGE/gol/loggers/syslog package.
+// LoggerTestSuite test suite for the github.com/steenzout/go-log/loggers/syslog package.
 type LoggerTestSuite struct {
 	suite.Suite
 	logger gol.Logger

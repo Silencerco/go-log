@@ -10,7 +10,7 @@ cache:
 sudo: false
 go:
   - 1.5
-go_import_path: github.com/mediaFORGE/gol
+go_import_path: github.com/steenzout/go-log
 
 install:
   - go get github.com/fatih/color

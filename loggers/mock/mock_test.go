@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,13 +18,13 @@
 package mock_test
 
 import (
-	"github.com/mediaFORGE/gol/loggers/mock"
+	"github.com/steenzout/go-log/loggers/mock"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )
 
-// LoggerTestSuite test suite for the github.com/mediaFORGE/gol/loggers/mock package.
+// LoggerTestSuite test suite for the github.com/steenzout/go-log/loggers/mock package.
 type LoggerTestSuite struct {
 	suite.Suite
 }

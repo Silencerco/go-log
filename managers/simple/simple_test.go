@@ -1,4 +1,5 @@
 //
+// Copyright 2016-2017 Pedro Salgado
 // Copyright 2015 Rakuten Marketing LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mediaFORGE/gol"
-	mfmock "github.com/mediaFORGE/gol/internal/mock"
-	logger_mock "github.com/mediaFORGE/gol/loggers/mock"
-	logger_simple "github.com/mediaFORGE/gol/loggers/simple"
-	manager_simple "github.com/mediaFORGE/gol/managers/simple"
+	"github.com/steenzout/go-log"
+	mfmock "github.com/steenzout/go-log/internal/mock"
+	logger_mock "github.com/steenzout/go-log/loggers/mock"
+	logger_simple "github.com/steenzout/go-log/loggers/simple"
+	manager_simple "github.com/steenzout/go-log/managers/simple"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
