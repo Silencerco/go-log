@@ -1,4 +1,6 @@
 language: go
+sudo: false
+
 cache:
   directories:
     - ${GOPATH}/src/github.com/fatih
@@ -7,9 +9,12 @@ cache:
     - ${GOPATH}/src/github.com/mattn
     - ${GOPATH}/src/github.com/stretchr
     - ${GOPATH}/src/golang.org
-sudo: false
+
 go:
+  - 1.7
+  - 1.6
   - 1.5
+
 go_import_path: github.com/steenzout/go-log
 
 install:
@@ -28,3 +33,4 @@ script:
 after_success:
   - bash ${GOPATH}/src/github.com/h12w/gosweep/gosweep.sh
   - ${HOME}/gopath/bin/goveralls -coverprofile=profile.cov -service=travis-ci
+
