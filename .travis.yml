@@ -11,6 +11,7 @@ cache:
     - ${GOPATH}/src/golang.org
 
 go:
+  - 1.8
   - 1.7
   - 1.6
 
